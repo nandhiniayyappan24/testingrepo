@@ -1,0 +1,5 @@
+rules:
+  - id: python.lang.security.audit.hardcoded-password-string
+  - id: python.lang.security.audit.insecure-transport
+  - id: python.lang.security.audit.subprocess-shell-true
+  - id: python.lang.security.audit.weak-ssl-version

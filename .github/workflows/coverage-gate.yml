@@ -29,15 +29,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -e ".[dev]" coverage>=7.10 mutmut>=2.4.5
 
-      - name: Run tests with branch coverage
+      - name: Run gate tests with branch coverage
         env:
           CI: "true"
         run: |
-          coverage run -m pytest testing/test_assertion.py testing/test_collection.py -q
-          coverage combine
-          coverage report -m
-          coverage xml -o coverage.xml
-          coverage json -o coverage.json
+          python scripts/run_gate_checks.py
+          test -f coverage.xml
+          test -f coverage.json
 
       - name: Upload coverage artifacts
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1

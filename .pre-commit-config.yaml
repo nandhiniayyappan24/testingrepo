@@ -18,6 +18,10 @@ repos:
     -   id: detect-secrets
         args: ['--baseline', '.secrets.baseline']
         exclude: package.lock.json
+-   repo: https://github.com/gitleaks/gitleaks
+    rev: v8.24.2
+    hooks:
+    -   id: gitleaks
 - repo: https://github.com/woodruffw/zizmor-pre-commit
   rev: v1.26.1
   hooks:

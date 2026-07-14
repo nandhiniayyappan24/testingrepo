@@ -60,6 +60,7 @@ optional-dependencies.dev = [
     "attrs>=19.2",
     "hypothesis>=3.56",
     "mock",
+    "pytest-cov>=4.1",
     "requests",
     "setuptools",
     "xmlschema",

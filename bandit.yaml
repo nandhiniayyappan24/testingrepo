@@ -1,0 +1,10 @@
+# Bandit security scan configuration for taxonomy SAST checks.
+exclude_dirs:
+  - /testing/
+  - /doc/
+  - /bench/
+  - /.tox/
+  - /build/
+  - /dist/
+skips:
+  - B101  # assert used in test framework code paths
