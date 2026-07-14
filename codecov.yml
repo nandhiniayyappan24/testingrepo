@@ -2,7 +2,7 @@
 ---
 
 codecov:
-  token: 1eca3b1f-31a2-4fb8-a8c3-138b441b50a7 #repo token
+  # Token is configured in the Codecov UI / CI secrets — do not commit tokens.
 
 coverage:
   status:

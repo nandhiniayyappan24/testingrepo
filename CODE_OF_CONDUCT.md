@@ -65,12 +65,12 @@ Project maintainers who do not follow or enforce the Code of Conduct in good
 faith may face temporary or permanent repercussions as determined by other
 members of the project's leadership.
 
-The coc@pytest.org address is routed to the following people who can also be
-contacted individually:
+The coc@pytest.org address is routed to the following maintainers who can also be
+contacted via their GitHub profiles:
 
-- Brianna Laugher ([@pfctdayelise](https://github.com/pfctdayelise)): brianna@laugher.id.au
-- Bruno Oliveira ([@nicoddemus](https://github.com/nicoddemus)): nicoddemus@gmail.com
-- Freya Bruhin ([@the-compiler](https://github.com/the-compiler)): pytest@the-compiler.org
+- Brianna Laugher ([@pfctdayelise](https://github.com/pfctdayelise))
+- Bruno Oliveira ([@nicoddemus](https://github.com/nicoddemus))
+- Freya Bruhin ([@the-compiler](https://github.com/the-compiler))
 
 ## Attribution
 

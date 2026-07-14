@@ -1,0 +1,21 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "pytest",
+      "licenses": [{ "license": { "id": "MIT" } }]
+    }
+  },
+  "components": [
+    { "type": "library", "name": "colorama", "licenses": [{ "license": { "id": "BSD-3-Clause" } }] },
+    { "type": "library", "name": "exceptiongroup", "licenses": [{ "license": { "id": "MIT" } }] },
+    { "type": "library", "name": "iniconfig", "licenses": [{ "license": { "id": "MIT" } }] },
+    { "type": "library", "name": "packaging", "licenses": [{ "license": { "id": "Apache-2.0" } }] },
+    { "type": "library", "name": "pluggy", "licenses": [{ "license": { "id": "MIT" } }] },
+    { "type": "library", "name": "pygments", "licenses": [{ "license": { "id": "BSD-2-Clause" } }] },
+    { "type": "library", "name": "tomli", "licenses": [{ "license": { "id": "MIT" } }] }
+  ]
+}

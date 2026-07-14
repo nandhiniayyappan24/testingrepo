@@ -1,0 +1,10 @@
+{
+  "format": "coverage-baseline-v1",
+  "generated_by": "scripts/update_coverage_baseline.py",
+  "totals": {
+    "percent_covered": 36.48,
+    "percent_branches_covered": 18.30,
+    "percent_statements_covered": 42.07
+  },
+  "source": "subset: testing/test_bench.py"
+}

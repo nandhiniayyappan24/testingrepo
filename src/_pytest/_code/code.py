@@ -1573,9 +1573,9 @@ def getfslineno(obj: object) -> tuple[str | Path, int]:
     return code.path, code.firstlineno
 
 
-def _byte_offset_to_character_offset(str, offset):
+def _byte_offset_to_character_offset(text: str, offset: int) -> int:
     """Converts a byte based offset in a string to a code-point."""
-    as_utf8 = str.encode("utf-8")
+    as_utf8 = text.encode("utf-8")
     return len(as_utf8[:offset].decode("utf-8", errors="replace"))
 
 

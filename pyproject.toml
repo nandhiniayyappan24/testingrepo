@@ -481,6 +481,15 @@ patch = [ "subprocess" ]
 # Perhaps: https://github.com/coveragepy/coveragepy/issues/2082
 core = "ctrace"
 
+[tool.mutmut]
+paths_to_mutate = [
+    "src/_pytest/_code/source.py",
+    "src/_pytest/_code/code.py",
+]
+tests_dir = "testing/code"
+backup = false
+runner = "python -m pytest {tests_dir} -x -q"
+
 [tool.towncrier]
 package = "pytest"
 package_dir = "src"
